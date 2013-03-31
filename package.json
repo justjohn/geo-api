@@ -1,0 +1,25 @@
+{
+  "author": "John Roepke <john@justjohn.us> (http://john.sh/)",
+  "name": "geo-api",
+  "description": "Low level API abstractions for geo services.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/justjohn/geo-api",
+  "licenses": [
+    { "type": "BSD-2-Clause",
+      "url":  "https://raw.github.com/justjohn/geo-api/master/LICENSE" }
+  ],
+  "repository": {
+    "type": "git",
+    "url":  "git://github.com/justjohn/geo-api.git"
+  },
+  "dependencies": {
+    "q": "0.8.x",
+    "common-api": "latest"
+  },
+  "main": "geo.js",
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
